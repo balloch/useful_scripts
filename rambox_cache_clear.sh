@@ -5,7 +5,7 @@ set -eu
 cd $HOME/.config/Rambox/Partitions
 for dir in *;do
     cd $dir
-    printf '%s\n' "learing cache for $dir\n"
+    printf '%s\n' "clearing cache for $dir\n"
     rm -rf Cache/*
     rm -rf Code\ Cache/js/*
     rm -rf Service\ Worker/CacheStorage/*
